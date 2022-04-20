@@ -1,14 +1,20 @@
 // Write your solution here!
-const pets = ['Milo', 'Otis', 'Garfield'];
-const copyOfPets1 = pets.slice();
-const addToLast = copyOfPets.push('Odie');
-const append = copyOfPets1;
-append;
-const copyOfPets2 = pets.slice();
-const last_pet = copyOfPets2.pop();
-const prepend = copyOfPets2.unshift(last_pet);
+const append = ['Milo', 'Otis', 'Garfield'];
+append.push("Odie");  //Push pushes element into the end of the array 
+console.log(append);
+
+const prepend = ['Milo', 'Otis', 'Garfield']
+prepend.unshift("Odie"); //Unshift adds element to the front of the array
+console.log(prepend);
+
+const removeLast = ['Milo', 'Otis', 'Garfield']
+removeLast.pop();    //Removes  element into the end of the array 
+console.log(removeLast);
 
 
+const removeFirst = ['Milo', 'Otis', 'Garfield']
+removeFirst.shift('Milo'); //Remoes element to the front of the array
+console.log(removeFirst);
 
 
 
